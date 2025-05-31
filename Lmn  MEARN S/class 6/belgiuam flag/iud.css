@@ -1,0 +1,29 @@
+.belgium {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+
+}
+.belgium>div {
+  width: 32%;
+  height: 200px;
+}
+.black2 {
+  background-color: #000;
+}
+.yellow2 {
+  background-color: yellow;
+}
+.red2 {
+  background-color: red;
+}
+.belgium:hover {
+  flex-direction: column;
+}
+.belgium:hover .black2 {
+  width: 100%;
+  height: 33%;
+}

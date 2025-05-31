@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.containerM {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: rgb(34, 221, 174);
+  position: relative;
+  top: 20px;
+  right: -50px;
+}
+.containerM:hover {
+  top: -20px;
+  left: 20px;
+}
+.main {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  margin: 20px auto;
+  position: relative;
+  
+}
+.child1 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: #62c710;
+  transition: 1s;
+  top: -50px;
+  left: -50px;
+}
+.main:hover > .child1 {
+  top: 100px;
+  left: 100px;
+}
+.child2 {
+    width: 100px;
+  height: 100px;
+  position: absolute;
+  background: #363586;
+  transition: 1s;
+  top: -50px;
+  right: -50px;
+}
+.main:hover > .child2 {
+  top: 100px;
+  right: 100px ;
+}
+.child3 {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background-color: brown;
+  bottom: -50px;
+  left: -50px;
+  transition: 1s;
+}
+.main:hover > .child3 {
+  bottom: 100px;
+  left: 100px;
+}
+
+.child4 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: lightcoral;
+  bottom: -50px;
+  right: -50px;
+  transition: 1s;
+}
+
+.main:hover > .child4 {
+  bottom: 100px;
+  right: 100px;
+}
+
+.dhaka {
+  width: 200px;
+  height: 600px;
+  background: #53a1af;
+  margin: 100px auto 800px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+ 
+.danmondi {
+  width: 150px;
+  height: 150px;
+  background: #000;
+  position: sticky;
+  margin: 10px auto 0px;
+  top: 10px;
+  
+}
+
+.gobuttom {
+  width: max-content;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: gray;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+
+}

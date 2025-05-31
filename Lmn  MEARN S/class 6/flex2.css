@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contaner {
+  width: 100%;
+  display: flex;
+  
+}
+.red {
+  width: 100%;
+  height: 400px;
+  background-image: url(./image/gren.png) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: blue;
+
+}
+.green {
+  width: 100%;
+  height: 400px;
+  background-color: green;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main2 { 
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+
+}
+.main2 > div {
+  /* width: calc(50% - 10px); */
+  height: 200px;
+  background: hotpink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.child1 {order: 4;
+flex-shrink:;}
+.child2 {order: 3;}
+.child3 {order: 2;}
+.child4 {order: 1;}
+

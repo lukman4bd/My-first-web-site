@@ -1,0 +1,12 @@
+------Mear Stack------
+------Class 1 ------
+* web site , Domain , Hosting Dafination
+* Basic html tag,
+* tag= meta, attribute , 
+* short Form copy line ( shift+alt+ down arrow) {(./ = find file this opened file)}
+ ------------class2----------
+ input type list
+
+--------class3------
+
+ 

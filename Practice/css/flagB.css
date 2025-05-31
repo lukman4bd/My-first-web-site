@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    background: rgb(217, 236, 130);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.squar {
+    display: flex;
+    background: green;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.angle4 {
+    width: 80%;
+    height: 80% ;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    margin: auto;
+    
+}
+.circle {
+    background: rgb(4, 0, 255);
+    width: 100px;
+    height: 50%;
+    position: relative;
+    border-radius: 50%;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+}
+.line {
+    width: 140px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid wheat;
+    position: absolute;
+    top: 40%;
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: gray;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+}
+header {
+    background-color: aquamarine;
+    color: blue;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: brown;
+}
+section {
+    padding: 50px;
+}
+.designcard {
+    background: rebeccapurple;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid brown;
+    box-shadow: 2px 2px 10px;
+    margin: 10px auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+button {
+    border: 1px solid black;
+    cursor: pointer;
+    background: red;
+    padding: 5px;
+    border-radius: 10px;
+    button:hover {
+    background: #218838;
+    transform: scale(1.05);
+
+}
+button:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
+
+.designcard:hover {
+    transform: translateY(-10px);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+
+}

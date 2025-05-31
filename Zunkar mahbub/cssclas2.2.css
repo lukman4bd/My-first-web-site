@@ -1,0 +1,45 @@
+ h1 {
+        color: lab(38.48% 52.05 -82.27);
+        font-size: 25px;
+        font-weight: 20;
+        font-family: sans-serif;
+     }
+img {
+        width: fit-content;
+       }
+#l9 {
+        color: aqua;
+        font-size: 20px;
+} 
+#l8 {
+       color: red;
+}
+.gp1 {
+       color: lab(51.63% 78.87 16.65 / 0.932);
+}
+.gp2 {
+       color: lab(88.2% -82.01 83.75);
+}
+.gp3 {
+       color: blueviolet;
+}
+
+h3.gp2 {
+    font-style: italic;
+}
+body { 
+       background-color: rgb(233, 236, 235);
+}
+.d1 {
+       margin: 20px;
+       border: 5px solid blue;
+       padding: 5px;
+       height: fit-content;
+       width: fit-content;
+       border-radius: 20px;
+       background-color: bisque;
+       text-align: center;
+       text-decoration: underline;
+       text-transform: capitalize;
+       
+}

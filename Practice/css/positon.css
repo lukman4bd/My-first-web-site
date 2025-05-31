@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    width: 200px;
+    height: 200px;
+    border: 20px;
+    border-radius: 20px;
+    background: lightseagreen;
+    margin-top: 20px;
+    position: relative;
+    top: 50px;
+    right:50px;
+    margin-left: 50px;
+}
+.main:hover {
+    top: -50px;
+    left: 50px;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    margin: 20px;
+    position: relative;
+    margin-top: 200px;
+    margin: auto;
+}
+.container > .ch1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    transition: 1s;
+}
+.container:hover> .ch1 {
+    top: 150px;
+    left: 150px;
+}
+.dhaka {
+    width: 80px;
+    height: 1000px;
+    background-color: aquamarine;
+    margin: 20px auto 20px;
+    padding: 20px;
+}
+.basabo {
+    width: 50px;
+    height: 20px;
+    background-color: red;
+    position: sticky;
+    top: 10px;
+    bottom: 10px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+        <label for="name">Your Name : </label> <br>
+        <input type="text" id="name" placeholder="Enter Name" required>
+        <br>
+        <label for="URL"> Website : </label> <br> 
+        <input type="url" id="URL" placeholder="Enter your Website" required> <br>
+        <label for="Pass">Password : </label> <br>
+        <input type="password" id="Pass" placeholder="Enter Your Password" required> <br>
+        <label for="email">Email</label> <br>
+        <input type="email" id="email" placeholder="Enter Your Email" required > <br>
+        <label for="BOD">Birth Of Date : </label>
+        <input type="date" id="BOD" >
+        <br>
+        <label for=""> Gender : </label>
+        <label for="Mle">
+            <input type="radio" id="Mle" name="Gender" value="Male"> Male
+        </label>
+        <label for="fml">
+            <input type="radio" id="fml" value="Female" name=" Gender "> Female
+        </label>
+        <label for="oth">
+            <input type="radio" id="oth" value="Other" name="Gender"> Other 
+        </label>
+        <br>
+        <label for="">skill : </label>
+        <label for="html">
+            <input type="checkbox" id="html" value="html" name="skill"> <HTML></HTML>
+        </label>
+        <label for="Css"> 
+            <input type="checkbox" id="Css" value="css" name=" skill"> CSS
+        </label>
+        <label for="JS"> 
+            <input type="checkbox" id="JS" value="JavaScript" name="skill"> JS
+        </label> 
+        <br>
+        <label for="file">
+            Upload Photo :   <input type="file" name="file" id="file" accept="image/*"> 
+        </label>
+        <br>
+        <label for="Country"> Choose Your Country : </label>
+        <select name="COUNTRY" id="Country">
+            <option value="">---select Country---</option>
+            <option value="Bangladesh"> Bangladesh </option>
+            <option value="india">india</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Asia">Asia</option>
+        </select>
+        <label for="Color">Hair color : </label>
+        <input type="color" id="Color" value="Color" > 
+        <br>
+        <label for="voluam"> Your Volume : </label>
+        <input type="range" id="voluam" >
+        <br>
+        <label for="YourBio"> Your Bio : </label> <br>
+        <textarea name="Bio" id="YourBio" placeholder="Please enter Your bio, " cols="60" rows="6" > </textarea>
+        <br>
+        <label for="Ctime">Class Time : </label>
+        <input type="datetime-local" id="Ctime" value="datetime-local" >
+        <br>
+        <input type="image" src="image_submit.gif" alt="image_submit"  width="48" height="48">
+        <br>]
+        <label for="inmonth"> Birthday (month ) : </label>
+        <input type="month" id="inmonth" name="inmonth">
+        <br>
+        <label for="result"> result :  </label>
+        <input type="number" id="result" name="result" min="0" max="100">
+        <label for="week"> Week Name : </label>
+        <input type="week" id=" week" name="week" value="we">
+        <br>
+        <label for="Time"> slect time : </label>
+        <input type="time" id="Time" value="Time">
+
+        <br> 
+        <input type="reset" value="reset" >
+        <input type="submit">
+
+    </form>
+</body>
+</html>
